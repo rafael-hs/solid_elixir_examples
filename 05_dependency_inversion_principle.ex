@@ -12,9 +12,6 @@ defmodule EmailService do
 end
 
 # In this case, the `OrderNotifier` module is directly dependent on the `EmailService` module.
-# ------------------------------------------------------------------------------------------------
-# ------------------------------------------------------------------------------------------------
-# ------------------------------------------------------------------------------------------------
 
 # good code example of the Dependency Inversion Principle
 defmodule Notifier do
